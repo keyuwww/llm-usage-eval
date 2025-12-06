@@ -1,0 +1,17 @@
+[project]
+name = "llm-usage-eval"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets",
+    "requests",
+    "python-dotenv",
+    "openhands-sdk",
+    "openhands-tools",
+    "openpyxl",
+    "tqdm",
+    "pandas",
+]
+
+[tool.uv]
+# allows uv sync to work

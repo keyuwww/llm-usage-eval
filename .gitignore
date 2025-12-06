@@ -1,3 +1,6 @@
-data/*
+data/
 .venv/
 pdf/
+gdpval_tasks/
+.openhands/
+.env
