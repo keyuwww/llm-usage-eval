@@ -11,6 +11,12 @@ dependencies = [
     "openpyxl",
     "tqdm",
     "pandas",
+    "python-docx",
+    "PyPDF2",
+    "pdfplumber",
+    "scipy",
+    "numpy",
+    "reportlab",  # For PDF generation
 ]
 
 [tool.uv]

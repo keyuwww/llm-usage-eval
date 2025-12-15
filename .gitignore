@@ -1,6 +1,25 @@
-data/
+# Environment and dependencies
 .venv/
+.env
+__pycache__/
+*.pyc
+
+# Data directories
+data/
 pdf/
 gdpval_tasks/
-.openhands/
-.env
+
+# Evaluation outputs
+output/
+test_output_gpt4o/
+gpt4o_output/
+
+# Deliverables
+deliverable_files/
+deliverable/
+updated_dataset/
+dataset_updates.json
+remaining_tasks.txt
+
+# System files
+.DS_Store
